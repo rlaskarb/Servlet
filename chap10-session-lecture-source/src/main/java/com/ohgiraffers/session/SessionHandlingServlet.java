@@ -8,9 +8,10 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
-
+//index.jsp 에서 form 의 session 경로에 매핑
 @WebServlet(value = "/session")
 public class SessionHandlingServlet extends HttpServlet {
+
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
